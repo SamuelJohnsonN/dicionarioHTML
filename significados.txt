@@ -1,0 +1,223 @@
+
+<h1>Dicionário das Tags:</h1>
+
+A -
+a - Tag usada para adicionar links, são tags com abertura e fechamento e dentro dela ficará um texto ou elemento que  	servirá como redirecionador,
+	seu principal atributo é o href e o target.
+
+
+B - 
+br - Produz uma quebra de linha em um texto. É útil para escrever poemas ou um endereço, onde a divisão de linha é     	significante. Cada uso do br é gerado uma 
+	 quebra de linha.
+	 
+b - deixa o texto em negrito. Tem fechamento.
+
+C - 
+
+
+D - 
+
+div - É um container para qualquer elemento, ele é um componente de organização,ele vai servir para posicionarmos os elementos detro da página,
+	  serve para montar o layout da página, posso criar divisões na página para posicionar os elementos. Tem fechamento.
+
+
+E - 
+
+F - 
+
+
+H - 
+
+h1...h6 - Hierarquia de títulos, sendo h1 o mais importante. Tem fechamento.
+
+hgroup - Serve para agrupar um grupo de títulos. Tem fechamento.
+
+header - Tag de organização tal como article, section, footer. Esta tag serve como cabeçalho do contexto onde ela está inserida. Se ela estiver inserida	
+		 no body ela serve como cabeçalho do body, se estiver inserida em um article ela serve como cabeçalho do article.
+		 Fonte: <a href="https://www.youtube.com/watch?v=8LRxc17GRVs">CFB concursos</a>
+
+I -
+ 
+img - tag para incluir uma imagem. Seu principal atributo é o src, nele colocaremos o caminho da imagem. 
+		Exemplo: <code> &lt;img src="_imagens/caminhodafoto.png"&gt; </code>
+J - 
+
+
+
+K - 
+
+
+
+L - 
+
+
+M - 
+
+
+N - 
+
+
+
+O - 
+
+
+P - 
+p - Define um parágrafo.
+
+pre - considera todos os espaços e enters de um trecho de código.
+
+Q - 
+
+
+R - 
+
+
+S - 
+sup - deixa o texto sobrescrito. Tem fechamento. 
+sub - deixa o texto subescrito. Tem fechamento.
+T - 
+
+
+U - 
+
+
+V - 
+
+
+W - 
+wbr - Indica o ponto exato onde quero que a quebra de uma palavra ocorra, poderá ser usada em palavras muito grandes ou compostas como por exemplo:
+	  guarda-roupa.
+
+X - 
+
+
+Y - 
+
+
+Z - 
+
+</div>
+
+<div>
+
+<h1> Dicionário dos atributos </h1>
+
+A -
+
+
+B - 
+
+
+C - 
+
+
+D - 
+del - o texto fica riscado informando que ele foi "deletado" semanticamente. Tem fechamento.
+
+E - 
+em - Enfatiza determinado trecho, o texto também fica em itálico, porém com a diferença semântica. Tem fechamento. 
+
+F - 
+
+
+H - 
+href  - Hypertext Reference, define o endereço de destino de um link. Sua tag principal é a tag &lt;a&gt;
+		
+
+I - 
+i - Deixa o texto em itálico. Tem fechamento.
+
+J - 
+
+
+
+K - 
+
+
+
+L - 
+
+
+M - 
+
+
+N - 
+
+
+
+O - 
+
+
+P - 
+
+
+Q - 
+
+
+R - 
+
+
+S - 
+src - Src significa "source". O valor do atributo src é a URL da imagem que você quer exibir na sua página.
+
+span - É um conteiner generico em linha para conteúdo fraseado , que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ). Tem fechamento.
+
+T - 
+
+target - Vai definir a forma como o link será aberto, se por aba, nova janela ou no lugar da página atual. Os valores que podemos usar neste atibuto são: _self - Vai abrir a página no lugar da atual, é a forma padrão quando definimos um link na página. _blank - geralmente uma nova aba, porém usuários podem configurar os browsers para abrir uma nova janela no lugar.
+
+
+
+U - 
+
+
+V - 
+
+
+W - 
+
+
+X - 
+
+
+Y - 
+
+
+Z - 
+
+</div>
+
+
+
+<article>
+<h3>Observações:</h3>
+
+<h4> Exibindo código HTML na Página </h4>
+
+Para exibirmos um código HTML em um site ou blog, não podemos simplesmente inserir o código na página normalmente 
+(mesmo dentro de uma caixa de texto), porque o navegador tentaria interpretar o código e ele não seria exibido. 
+
+Para exibir um código devemos substituir as chaves:
+
+< por &lt;
+
+e chave
+
+> por &gt;
+Fonte: <a href="https://pt.stackoverflow.com/questions/148723/como-exibir-c%C3%B3digo-html" target="_blank">StackOverflow</a>
+
+</article>
+
+<article>
+<h2>Marcações importantes</h2>
+
+<code data-type="html-entity">&nbsp;</code> - Fornece espaços laterais. 
+<code>&shy;</code>  - Fornece quebra de palavras com hífen.
+
+</article>
+
+
+
+</body>
+
+</html>

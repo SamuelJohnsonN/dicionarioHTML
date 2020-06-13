@@ -5,233 +5,71 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="description" content="Referência para Tags e atributos">
+<meta name="description" content="Referência para Tags e atributos em html">
 <meta name="title" content="Tags e Descrições">
 <meta name="author" content="Samuel Johnson">
 
-<title> Referências para Tags e Atributos</title>
+<link rel="stylesheet" href="estilopaginaprincipal.css">
+
+<title>Dicionário HTML</title>
 </head>
 
 <body>
 
-<div>
-<h1>Dicionário das Tags:</h1>
-
-
-A -
-a - Tag usada para adicionar links, são tags com abertura e fechamento e dentro dela ficará um texto ou elemento que servirá como redirecionador,
-	seu principal atributo é o href e o target.
-
-
-B - 
-br - Produz uma quebra de linha em um texto. É útil para escrever poemas ou um endereço, onde a divisão de linha é significante. Cada uso do br é gerado uma 
-	 quebra de linha.
-
-C - 
-
-
-D - 
-
-div - É um container para qualquer elemento, ele é um componente de organização,ele vai servir para posicionarmos os elementos detro da página,
-	  serve para montar o layout da página, posso criar divisões na página para posicionar os elementos. Tem fechamento.
-
-
-E - 
-
-F - 
-
-
-H - 
-
-h1...h6 - Hierarquia de títulos, sendo h1 o mais importante. Tem fechamento.
-
-hgroup - Serve para agrupar um grupo de títulos. Tem fechamento.
-
-header - Tag de organização tal como article, section, footer. Esta tag serve como cabeçalho do contexto onde ela está inserida. Se ela estiver inserida	
-		 no body ela serve como cabeçalho do body, se estiver inserida em um article ela serve como cabeçalho do article.
-		 Fonte: <a href="https://www.youtube.com/watch?v=8LRxc17GRVs">CFB concursos</a>
-
-I -
- 
-img - tag para incluir uma imagem. Seu principal atributo é o src, nele colocaremos o caminho da imagem. 
-		Exemplo: <code> &lt;img src="_imagens/caminhodafoto.png"&gt; </code>
-J - 
-
-
-
-K - 
-
-
-
-L - 
-
-
-M - 
-
-
-N - 
-
-
-
-O - 
-
-
-P - 
-p - Define um parágrafo.
-
-Q - 
-
-
-R - 
-
-
-S - 
-
-
-T - 
-
-
-U - 
-
-
-V - 
-
-
-W - 
-wbr - Indica o ponto exato onde quero que a quebra de uma palavra ocorra, poderá ser usada em palavras muito grandes ou compostas como por exemplo:
-	  guarda-roupa.
-
-X - 
-
-
-Y - 
-
-
-Z - 
-
-</div>
+<header>
 
 <div>
-
-<h1> Dicionário dos atributos </h1>
-
-A -
-
-
-B - 
-
-
-C - 
-
-
-D - 
-
-
-E - 
-
-
-F - 
-
-
-H - 
-href  - Hypertext Reference, define o endereço de destino de um link. Sua tag principal é a tag &lt;a&gt;
-		
-
-I - 
-
-
-J - 
-
-
-
-K - 
-
-
-
-L - 
-
-
-M - 
-
-
-N - 
-
-
-
-O - 
-
-
-P - 
-
-
-Q - 
-
-
-R - 
-
-
-S - 
-src - Src significa "source". O valor do atributo src é a URL da imagem que você quer exibir na sua página.
-
-T - 
-
-target - Vai definir a forma como o link será aberto, se por aba, nova janela ou no lugar da página atual. Os valores que podemos
-		 usar neste atibuto são: _self - Vai abrir a página no lugar da atual, é a forma padrão quando definimos um link na página.
-		 _blank - geralmente uma nova aba, porém usuários podem configurar os browsers para abrir uma nova janela no lugar.
-		
-
-U - 
-
-
-V - 
-
-
-W - 
-
-
-X - 
-
-
-Y - 
-
-
-Z - 
-
+[ICONE]
 </div>
 
+<form>
+<input type="search" value="Pesquise aqui">
+<button type="button">Buscar</button>
+</form>
+
+<div id="alfabeto">
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+</div>
+
+</header>
 
 
-<article>
-<h3>Observações:</h3>
+<h2>História</h2>
 
-<h4> Exibindo código HTML na Página </h4>
+<p>O HTML surgiu como solução para a disseminação e compartilhamento de documentos científicos entre pesquisadores. Tim Berners-Lee, um físico britânico, criou com a ajuda do estudante do CERN (European Council for Nuclear Research), Robert Cailliau, a Linguagem de Marcação de Hipertexto ou como conhecemos, o HTML, quando em 1989, conseguiu realizar de forma bem sucedida a primeira comunicação entre um cliente HTTP e um servidor.</p>
 
-Para exibirmos um código HTML em um site ou blog, não podemos simplesmente inserir o código na página normalmente 
-(mesmo dentro de uma caixa de texto), porque o navegador tentaria interpretar o código e ele não seria exibido. 
+<p>O HTML (Hyper Text Language) é uma linguagem de marcação responsável por construir as páginas que existem na internet. Por meio dessa linguagem e de toda a sua estrutura, os navegadores interpretam o seu conteúdo em forma de código e o traduz na forma como vemos quando acessamos um site.</p>
 
-Para exibir um código devemos substituir as chaves:
+<p>No entanto, isso só foi possível, pois Tim Berners-Lee, utilizou a linguagem SGML a fim de formar o que conhecemos hoje como HTML. O SGML (Standard Generalized Markup Language)  estruturava os documentos compartilhados na Web. É dele que o HTML herdou inúmeras tags, incluindo as de título, parágrafo e cabeçalho.</p>
 
-< por &lt;
-
-e chave
-
-> por &gt;
-Fonte: <a href="https://pt.stackoverflow.com/questions/148723/como-exibir-c%C3%B3digo-html" target="_blank">StackOverflow</a>
-
-</article>
-
-<article>
-<h2>Marcações importantes</h2>
-
-<code data-type="html-entity">&nbsp;</code> - Fornece espaços laterais. 
-<code>&shy;</code>  - Fornece quebra de palavras com hífen.
-
-</article>
+<p>O grande feito de Tim fora a capacidade do HTML ligar uma página a outra. Função esta que o SGML não tinha.</p>
 
 
+<h2>Surgimento do HTML</h2>
+
+<p>Pode-se afirmar que o HTML teve o seu surgimento no início da década de 90. E que entre 1990 e 1995, passou por várias atualizações e modificações em sua estrutura.</p>
+
+<p>Até 1995 quem supervisionava e controlava o padrão da linguagem era o próprio CERN. Desse ano em diante, a W3C (The World Wide Web Consortium), uma entidade que regula os padrões da Web, tomou para si a sua supervisão e controle.</p>
+
+
+<h2>O que é o HTML?</h2>
+
+<p>Como já dito nos tópicos anteriores, o HTML é uma linguagem de marcação. É por meio dos seus códigos que o conteúdo é delimitado, criando assim uma página na internet. Esses códigos, denominados de tags, definem todos os elementos presentes na estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc.</p>
+
+<p>É possível criar um código HTML em qualquer editor de texto, desde que a extensão do arquivo seja salva com o formato .HTML. Desse modo, ao clicar sobre o arquivo, o navegador mesmo sem conexão com a internet, mostrará o código na forma como ele interpreta ao usuário final.</p>
+
+<p>
+Fonte:
+<a href="https://omanualdofreelancer.com/historia-html/" target="_blank">Manual do Freelancer</a>
+</p>
+
+<footer>
+
+
+</footer>
 
 </body>
 
-</html>
+
 
 
