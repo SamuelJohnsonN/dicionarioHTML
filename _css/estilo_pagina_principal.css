@@ -1,0 +1,36 @@
+header { background-color:#2d81bd;
+		padding-bottom:3%;
+		padding-top:1%;
+		margin:0px;
+		background-image:url("_imagens/wallpaper-azul.jpg");
+		
+
+}	
+
+a:hover {
+	color:#9c244c;
+	
+}
+a:visited {
+	color:#111169;
+}
+
+a {
+	text-decoration:none;
+	color:#7272f7;
+}
+
+form {
+	position:absolute;
+	left:65%;
+	top:20%;
+	
+	
+}
+
+
+ul {
+	text-align:center;
+	letter-spacing:15px;
+}
+

@@ -1,0 +1,18 @@
+#local_logo {
+	margin:1px;
+}
+
+#logo{
+	width:150px;
+	position:relative;
+	left:22%;
+}
+
+#alfabeto{
+		list-style-type:none;
+	}
+
+#contem_alfabeto ul li {
+	display:inline;
+	
+}
