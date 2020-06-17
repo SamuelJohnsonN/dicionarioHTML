@@ -24,8 +24,9 @@ div - É um container para qualquer elemento, ele é um componente de organizaç
 E - 
 
 F - 
+figure - Tag com fechamento que destina a marcar uma área que representa imagens que fazem parte de um conteúdo. O significado é semântico. É muito útil para mecanismos de busca, pois podemos dar uma legenda para a imagem.
 
-
+figcaption - tag usada dentro de figure, tem fechamento e é usado para dar uma legenda a imagem. A lengeda dentro de figcaption não precisa ser necessariamente curto, pode ter títulos e parágrafos, uma descrição maior da imagem.
 H - 
 
 h1...h6 - Hierarquia de títulos, sendo h1 o mais importante. Tem fechamento.
@@ -218,6 +219,9 @@ Fonte: <a href="https://pt.stackoverflow.com/questions/148723/como-exibir-c%C3%B
 
 
 
-</body>
+Dicas:
 
-</html>
+- Evite diminuir as fotos diretamente no HTML, pois por mais que a foto chegue pequena para o usuário o tamanho em kb ou mb do arquivo não diminui, isso gera um desperdício de espaço.
+
+- Ao trabalhar com arquivos de imagens e salvá-las no tamanho correto, em alguns editores exite a opção "salvar para web", 
+  utilize esta opção no lugar de "salvar como".
