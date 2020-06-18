@@ -1,8 +1,6 @@
 header { background-color:#2d81bd;
-		padding-bottom:3%;
-		padding-top:1%;
-		margin:0px;
-		background-image:url("file:///C:/Users/teste/Desktop/Projetos%20para%20o%20git/Dicionario_das_tags/_imagens/logo001.png");
+		padding-bottom:18%;		
+		background-image:url("file:///C:/Users/teste/Desktop/Projetos%20para%20o%20git/Dicionario_das_tags/_imagens/wallpaper-azul.jpg");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		
@@ -48,4 +46,17 @@ body {
 }
 h1, h2, h3, h4{
 	color: #6b6b65;
+	b
+	
+}
+
+.rodape { text-align: center;
+	line-height:4px;
+	
+}
+
+h1 {
+	border-bottom: solid;
+	border-color: black;
+	border-bottom-width: 1px;	
 }
