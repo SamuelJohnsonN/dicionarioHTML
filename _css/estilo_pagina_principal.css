@@ -2,7 +2,7 @@ header { background-color:#2d81bd;
 		padding-bottom:3%;
 		padding-top:1%;
 		margin:0px;
-		background-image:url("file:///C:/Users/teste/Desktop/Projetos%20para%20o%20git/Dicionario_das_tags/_imagens/wallpaper-azul.jpg");
+		background-image:url("file:///C:/Users/teste/Desktop/Projetos%20para%20o%20git/Dicionario_das_tags/_imagens/logo001.png");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		
@@ -38,12 +38,14 @@ ul {
 
 footer {
 	background-color: #eb9138;
-	padding: 10px;
+	padding: 20px;
 	position: relative;
 	top: 300px;
 
 }
-
 body {
-	background-color: #ddede9;
+	background-color: #e7ebe1;
+}
+h1, h2, h3, h4{
+	color: #6b6b65;
 }
