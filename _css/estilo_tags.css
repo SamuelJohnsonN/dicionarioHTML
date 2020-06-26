@@ -1,11 +1,25 @@
 header { background-color:#2d81bd;
-		padding-bottom:19%;	
-		background-image:url("file:///C:/Users/teste/Desktop/Projetos%20para%20o%20git/Dicionario_das_tags/_imagens/logo.png");
+		background-image:url("file:///C:/Users/teste/Desktop/Projetos%20para%20o%20git/Dicionario_das_tags/_imagens/fundo-header.png");
 		background-repeat: no-repeat;
 		background-size: cover;
-		
-				
+		width: 1327px;
+		height: 255px;
+		box-sizing: border-box;
+					
 }	
+#alfabeto{
+	list-style-type:none;
+	font-size: 18px;
+	font-family:"baskerville old face";
+	margin-top: 40px;
+		
+}
+
+#contem_alfabeto ul li {
+display:inline;
+
+}
+
 
 a:hover {
 	color:#9c244c;
@@ -37,11 +51,11 @@ body {
 }
 h1, h2, h3, h4{
 	color: #6b6b65;
-	b
 	
 }
 
-.rodape { text-align: center;
+.rodape { 
+	text-align: center;
 	line-height:4px;
 	
 }
@@ -60,7 +74,11 @@ h1 {
 	
 }
 #input_pesquisar:focus {
-	background-color: aliceblue;
+	background-color: #b2eaf5;
+}
+#input_pesquisar:hover{
+	background-color: #b2eaf5;
+;
 }
 
 form {
@@ -68,25 +86,27 @@ form {
 	left:55%;
 	top:20%;
 	width:35%;
-	
+		
 	
 }
 .busca {
    border-radius: 5px;
    box-sizing: border-box;
-   border:3px solid black;
+   outline: none;
 }
 
 #botao_buscar {
 	height:30px;
-	width: 20%;
-	box-shadow: 0 2px 4px black;
-	background-color: rgb(163, 211, 253);
-
-	
+	width: 80px;
+	box-shadow: 0px 1px 1px black;
+	background-image: url("file:///C:/Users/teste/Desktop/Projetos%20para%20o%20git/Dicionario_das_tags/_imagens/icone_pesquisa3.png");
+	background-repeat: no-repeat;
+	background-size: 22px 22px;
+	background-position:center;
+			
 }
 #botao_buscar:hover {
-	background-color: #5DBCD2;
+	background-color:#b2b7b8;
 	
 }
 #botao_buscar:active {

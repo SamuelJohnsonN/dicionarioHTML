@@ -50,16 +50,17 @@ K -
 
 
 L - 
-
+li - linhas, elementos de uma lista,
 
 M - 
 
 
 N - 
-
+<nav> tag de abertura e fechamento,indica uma área de nevegação dentro do site.
 
 
 O - 
+ol - lista ordenada 
 
 
 P - 
@@ -80,7 +81,7 @@ T -
 
 
 U - 
-
+ul - lista desordenada
 
 V - 
 

@@ -1,20 +1,15 @@
-/*.icone-pesquisa {
-	display:table;
+#logo {
+	position: relative;
+	left: 15%;
 }
-.icone-pesquisa .busca1 {
-	border-right:0;
-	padding: 1rem;
+#tim{
+	position: relative;
 }
-.icone-pesquisa-texto {
-	background:#F2F2F2;
-	border: 1px solid #DCDCDC;
-	box-sizing: border-box;
-	display: table-cell;
-	font-size: 8rem;
-	line-height: 0;
-	padding: 1rem;
-	text-align: center;
-	vertical-align: middle;
-	white-space: nowrap;
-	width: 1%;
-}*/
+
+#tim figcaption {
+	font-size: 15px;
+	position: relative;
+	bottom: 30px;
+	margin-left: auto;
+}
+
