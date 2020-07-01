@@ -6,10 +6,14 @@
 	position: relative;
 }
 
-#tim figcaption {
+figcaption {
 	font-size: 15px;
 	position: relative;
 	bottom: 30px;
 	margin-left: auto;
+}
+#codigo-html {
+border: 1px solid black;
+box-shadow: 0px 1px 2px rgb(0,0,0, 0.2);
 }
 
