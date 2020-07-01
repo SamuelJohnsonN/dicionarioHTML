@@ -4,6 +4,15 @@
 }
 #tim{
 	position: relative;
+	width:auto;
+	height:auto;
+	
+}
+#tim_berners_lee {
+	width:auto;
+	height:auto;
+	box-shadow: 1px 0px 1px rgba(0,0, 0, 0.5);
+	position: relative;
 }
 
 figcaption {
@@ -17,3 +26,35 @@ border: 1px solid black;
 box-shadow: 0px 1px 2px rgb(0,0,0, 0.2);
 }
 
+
+/* Lista de imagens do RODAPÉ*/
+#imagens_rodape li {
+	display: inline-block;
+	list-style-type:none;
+	
+}
+#imagens_rodape{
+	margin:0px;
+}
+#imagens-social{
+	width: 900px;
+	height:215;
+	position: absolute;
+	left:28%;
+	top:35%;
+	
+}
+
+.social {
+	margin:15px;
+	margin-left: 40px;
+	margin-bottom: 60px;
+}
+
+/* Ícone do RODAPÉ*/
+#icone-dicionario{
+	position: relative;
+	bottom:20%;
+	margin-bottom: 0px;
+	
+}
